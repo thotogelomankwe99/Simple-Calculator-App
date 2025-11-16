@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A simple Calculator App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table> 
+        <caption><h2>SIMPLE CALCULATOR</h2></caption>
+        <tr>
+            <td colspan="3"><input type="text" name="results-output" id="res" readonly></td>
+            <td><button class="AC-btn" onclick="ac()">AC</button></td>
+        </tr>
+
+        <tr>
+            <td><button class="btn" onclick="show('1')">1</button></td>
+            <td><button class="btn" onclick="show('2')">2</button></td>
+            <td><button class="btn" onclick="show('3')">3</button></td>
+            <td><button class="btn" onclick="show('+')">+</button></td>
+        </tr>
+
+        <tr>
+            <td><button class="btn" onclick="show('4')">4</button></td>
+            <td><button class="btn" onclick="show('5')">5</button></td>
+            <td><button class="btn" onclick="show('6')">6</button></td>
+            <td><button class="btn" onclick="show('-')">-</button></td>
+        </tr>
+
+        <tr>
+            <td><button class="btn" onclick="show('7')">7</button></td>
+            <td><button class="btn" onclick="show('8')">8</button></td>
+            <td><button class="btn" onclick="show('9')">9</button></td>
+            <td><button class="btn" onclick="show('*')">*</button></td>
+        </tr>
+
+        <tr>
+            <td><button class="btn" onclick="show('0')">0</button></td>
+            <td><button class="btn" onclick="show('%')">%</button></td>
+            <td><button class="btn" onclick="show('/')">/</button></td>
+            <td><button class="Equal-btn" onclick="cal()">=</button></td>
+        </tr>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
